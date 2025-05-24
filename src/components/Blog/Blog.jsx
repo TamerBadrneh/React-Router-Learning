@@ -10,8 +10,8 @@ export default function Blog() {
   return (
     <>
       {blog ? (
-        <div className="m-5 px-5">
-          <div className="d-flex gap-4 my-4">
+        <div className="m-5 px-3">
+          <div className="d-flex flex-column flex-md-row gap-4 my-4">
             <img
               src={blog.image}
               alt="blog image"
@@ -22,7 +22,7 @@ export default function Blog() {
               }}
             />
             <div>
-              <h1>{blog.title}</h1>
+              <h1 className="fs-3">{blog.title}</h1>
               <p>
                 By: {blog.author} <br />
                 <Link to="/home">
