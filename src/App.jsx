@@ -11,7 +11,7 @@ export default function App() {
 
   useEffect(() => {
     axios
-      .get("/src/data/blogs.json")
+      .get("/data/blogs.json")
       .then((resonse) => setBlogs(resonse.data))
       .catch((error) => console.log(error));
   }, []);
