@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering JavaScript Closures",
+    "author": "Jane Doe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+    "content": "Closures are a fundamental concept in JavaScript that allow functions to access variables from an enclosing scope even after the outer function has returned. This allows for powerful patterns such as data encapsulation and partial function application. Understanding closures is key to mastering JavaScript and writing more modular, maintainable code.",
+    "comments": [
+      { "content": "Great explanation on closures!" },
+      { "content": "Helped me understand scopes better." }
+    ],
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Understanding Asynchronous Programming",
+    "author": "John Smith",
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+    "content": "Asynchronous programming is essential for handling operations like network requests, file I/O, and timers. JavaScript uses callbacks, promises, and async/await to manage these operations efficiently. Properly handling async code helps avoid performance issues and ensures a smooth user experience.",
+    "comments": [
+      { "content": "Async/await makes things so much cleaner." },
+      { "content": "Callbacks were confusing, this helps!" }
+    ],
+    "rating": 3
+  },
+  {
+    "id": 3,
+    "title": "A Guide to CSS Flexbox",
+    "author": "Emily Johnson",
+    "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+    "content": "Flexbox is a powerful CSS module that allows for efficient layout of items within a container. It provides a simple way to align and distribute space among items, even when their sizes are dynamic. This guide covers flex-direction, justify-content, align-items, and more.",
+    "comments": [
+      { "content": "Flexbox has changed the way I design layouts." },
+      { "content": "This guide is very helpful!" }
+    ],
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "title": "Introduction to React Hooks",
+    "author": "Michael Brown",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "content": "React Hooks allow you to use state and other React features in functional components. Hooks like useState, useEffect, and useContext simplify code and eliminate the need for classes. They promote cleaner and more reusable logic in your React apps.",
+    "comments": [
+      { "content": "Hooks simplified my React code." },
+      { "content": "useEffect was tricky at first, but this helped." }
+    ],
+    "rating": 2
+  },
+  {
+    "id": 5,
+    "title": "Building RESTful APIs with Node.js",
+    "author": "Sarah Lee",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "content": "Node.js provides a non-blocking I/O model ideal for building scalable web applications. Using Express.js, a Node.js framework, you can quickly set up RESTful APIs for your frontend to consume. This blog walks through creating endpoints, handling requests, and connecting to databases.",
+    "comments": [
+      { "content": "Express makes routing so simple." },
+      { "content": "Great starting point for backend development." }
+    ],
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "title": "Demystifying Git and GitHub",
+    "author": "David Wilson",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "content": "Git is a distributed version control system that allows you to track changes in your codebase. GitHub offers a platform for hosting and collaborating on Git repositories. This article explains branching, merging, pull requests, and best practices for collaboration.",
+    "comments": [
+      { "content": "Finally understand branching!" },
+      { "content": "GitHub workflows are clearer now." }
+    ],
+    "rating": 3
+  },
+  {
+    "id": 7,
+    "title": "Exploring Python for Data Science",
+    "author": "Laura Martinez",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZqZkpMyiN2uSuT7GAf6JSkJ44YsZqoQHdw&s",
+    "content": "Python's readable syntax and powerful libraries like Pandas, NumPy, and Matplotlib make it ideal for data science. This blog covers basic data manipulation, analysis techniques, and data visualization to help you get started with Python in data science.",
+    "comments": [
+      { "content": "Pandas and NumPy are game changers." },
+      { "content": "Great intro to data analysis." }
+    ],
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "title": "Getting Started with TypeScript",
+    "author": "Robert Garcia",
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+    "content": "TypeScript is a superset of JavaScript that adds optional static typing. It helps catch bugs early and makes code easier to understand and maintain. This guide walks through setting up TypeScript, defining types, and integrating with existing JavaScript projects.",
+    "comments": [
+      { "content": "Type safety has saved me so many times." },
+      { "content": "Interfaces make my code more robust." }
+    ],
+    "rating": 2
+  },
+  {
+    "id": 9,
+    "title": "Responsive Design Principles",
+    "author": "Patricia Anderson",
+    "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+    "content": "Responsive design ensures websites look and function well on all devices. This includes using flexible grids, media queries, and mobile-first design approaches. This article provides tips on creating responsive layouts that adapt seamlessly across screens.",
+    "comments": [
+      { "content": "Media queries are essential!" },
+      { "content": "Mobile-first approach is the way to go." }
+    ],
+    "rating": 4
+  },
+  {
+    "id": 10,
+    "title": "Introduction to Machine Learning",
+    "author": "Thomas Clark",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "content": "Machine learning is a field of AI that enables systems to learn from data and improve over time. This post covers basic concepts like supervised and unsupervised learning, and common algorithms such as linear regression and decision trees.",
+    "comments": [
+      { "content": "Supervised vs unsupervised was confusing, this helped." },
+      { "content": "Great overview of ML concepts." }
+    ],
+    "rating": 1
+  }
+]
