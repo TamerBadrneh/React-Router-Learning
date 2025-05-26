@@ -4,15 +4,16 @@ import Blog from "./components/Blog/Blog";
 import { Blogs } from "./context/BlogsContext";
 import ErrorPage from "./components/404-Error-Page/ErrorPage";
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 export default function App() {
   const [BLOGS, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("./data/blogs.json")
-      .then((response) => response.json())
-      .then((data) => setBlogs(data))
-      .catch((err) => console.log(err));
+    axios
+      .get("/src/data/blogs.json")
+      .then((resonse) => setBlogs(resonse.data))
+      .catch((error) => console.log(error));
   }, []);
 
   return (
