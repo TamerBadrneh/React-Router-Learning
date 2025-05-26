@@ -9,7 +9,7 @@ export default function App() {
   const [BLOGS, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("/src/data/blogs.json")
+    fetch("./data/blogs.json")
       .then((response) => response.json())
       .then((data) => setBlogs(data))
       .catch((err) => console.log(err));
